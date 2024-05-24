@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\shaders">
+      <UniqueIdentifier>{11be5480-77d8-4402-9191-fec9311334b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\hdr_maps">
+      <UniqueIdentifier>{be4cfecc-7da8-4f86-8fb9-fc368d93ffb0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="hdr_equirectengular_maps\Thumersbach.hdr">
+      <Filter>Source Files\hdr_maps</Filter>
+    </None>
+    <None Include="hdr_equirectengular_maps\Snowstreet.hdr">
+      <Filter>Source Files\hdr_maps</Filter>
+    </None>
+    <None Include="hdr_equirectengular_maps\Beach.hdr">
+      <Filter>Source Files\hdr_maps</Filter>
+    </None>
+    <None Include="hdr_equirectengular_maps\Test.hdr">
+      <Filter>Source Files\hdr_maps</Filter>
+    </None>
+    <None Include="shaders\frag.glsl">
+      <Filter>Source Files\shaders</Filter>
+    </None>
+    <None Include="shaders\vert.glsl">
+      <Filter>Source Files\shaders</Filter>
+    </None>
+    <None Include="shaders\CubemapInitVS.glsl">
+      <Filter>Source Files\shaders</Filter>
+    </None>
+    <None Include="shaders\CubemapInitFS.glsl">
+      <Filter>Source Files\shaders</Filter>
+    </None>
+    <None Include="shaders\SkyboxFS.glsl">
+      <Filter>Source Files\shaders</Filter>
+    </None>
+    <None Include="shaders\SkyboxVS.glsl">
+      <Filter>Source Files\shaders</Filter>
+    </None>
+    <None Include="shaders\MirrorVS.glsl">
+      <Filter>Source Files\shaders</Filter>
+    </None>
+    <None Include="shaders\GlassVS.glsl">
+      <Filter>Source Files\shaders</Filter>
+    </None>
+    <None Include="shaders\LightProbeFS.glsl">
+      <Filter>Source Files\shaders</Filter>
+    </None>
+    <None Include="shaders\LightProbeVS.glsl">
+      <Filter>Source Files\shaders</Filter>
+    </None>
+    <None Include="shaders\TonemapFS.glsl">
+      <Filter>Source Files\shaders</Filter>
+    </None>
+    <None Include="shaders\TonemapVS.glsl">
+      <Filter>Source Files\shaders</Filter>
+    </None>
+    <None Include="shaders\DiscoFS.glsl">
+      <Filter>Source Files\shaders</Filter>
+    </None>
+    <None Include="shaders\DiscoVS.glsl">
+      <Filter>Source Files\shaders</Filter>
+    </None>
+    <None Include="shaders\GlossyFS.glsl">
+      <Filter>Source Files\shaders</Filter>
+    </None>
+    <None Include="shaders\GlossyVS.glsl">
+      <Filter>Source Files\shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="helpers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SkyBox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HDRTexture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Object.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="helpers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SkyBox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HDRTexture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="externals.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
